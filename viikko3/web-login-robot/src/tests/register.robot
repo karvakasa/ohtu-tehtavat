@@ -53,6 +53,7 @@ Login After Failed Registration
     Set Username  karvakasa
     Set Password  karva
     Submit Credentials
+    Page Should Contain  Invalid username or password
 
 *** Keywords ***
 Create User And Go To Register Page
